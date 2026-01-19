@@ -1,10 +1,15 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/OnlineSchoolWeb2?connectTimeout=60&socketTimeout=60&tcpKeepAlive=true&ApplicationName=OnlineSchoolKursach
-    username: postgres
-    password: 1
+    url: jdbc:postgresql://dpg-d5mviskmrvns73fe923g-a:5432/online_school_bb1t
+    username: postgres1
+    password: 2dUPokplrf8HVR7nLUuvaGBbHaY7dPWb
+    driver-class-name: org.postgresql.Driver
+
   jpa:
     hibernate:
       ddl-auto: update
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+
 server:
   port: 8080
