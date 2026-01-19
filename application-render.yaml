@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:postgresql://${POSTGRES_HOST}:${POSTGRES_PORT}/${POSTGRES_DB}
-    username: ${POSTGRES_USER}
-    password: ${POSTGRES_PASSWORD}
+    url: jdbc:postgresql://localhost:5432/OnlineSchoolWeb2?connectTimeout=60&socketTimeout=60&tcpKeepAlive=true&ApplicationName=OnlineSchoolKursach
+    username: postgres
+    password: 1
   jpa:
     hibernate:
       ddl-auto: update
