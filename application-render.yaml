@@ -16,3 +16,8 @@ server:
 
 minio:
   enabled: false
+
+cloudinary:
+  cloud-name: dvbej3gbu
+  api-key: 125476794446191
+  api-secret: SZSaROkvF3DGdpt4P4sgCdj8RqI
